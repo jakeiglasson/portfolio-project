@@ -1,0 +1,99 @@
+@import url("./profile_card.css");
+
+/* Defaults */
+
+* {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+
+  background-color: #050318;
+}
+
+  /* Global border for layout designing */
+.global-border { 
+  border: 1px solid white;
+}
+
+  /* Settings for each section: header, content, footer etc #not nav */
+.section {
+  width: 100%;
+  max-width: 99%;
+  margin: 10px 0px 10px 0px;
+}
+
+
+/* Navigation Bar Section */
+
+.nav {
+  border-top: 1px solid #fd008a;
+  background-color: #050318;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+}
+
+
+/* Hero Banner Section */
+
+.hero-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 0px;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-size: 400%;
+}
+
+.hero-banner h1 {
+  color: #fd008a;
+  text-shadow: 2px 2px 2px #3ae4ee;
+}
+
+.hero-banner h6 {
+  font-size: 40%;
+}
+
+
+/* Content Section */
+.content-container {
+  height: 100%;
+}
+
+
+/* Footer Section */
+.footer-container {
+  width: 100%;
+  bottom: 70px;
+  margin-bottom: 80px;
+}
+
+
+
