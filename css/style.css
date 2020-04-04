@@ -37,8 +37,6 @@ body {
   background: url(../images/backgrounds/Random_static.gif);
   background-size: cover;
   box-shadow:inset 0 0 0 2000px rgba(13, 9, 16, 0.99);
-  /* background-color: #0D0910; */
-
 }
 
   /* Global border for layout designing */
@@ -108,6 +106,7 @@ body {
   /* background-size: cover; */
   box-shadow:inset 0 0 0 2000px rgba(13, 9, 16, 0.9);
   padding: 15px 0;
+  /* font-size: 125%; */
 }
 
 .intro-container h1 {
@@ -122,46 +121,19 @@ body {
 /* MEDIA QUERYS */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* body */
+  .intro-container {
+    font-size: 150%;
+  }
+
+  .intro-container p{
+    margin: 0 10%;
+  }
+
+  .footer-container {
+    margin-bottom: 250px !important;
+  }
+
   
-  /* Hero Banner Section */
-
-  .hero-banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    margin-top: 0px;
-    background: url(../images/backgrounds/abstract-3293076.jpg) no-repeat scroll 50% 55%;
-    background-size: 100% auto;
-  }
-
-  .hero-banner {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    font-size: 200%;
-    letter-spacing: 10px;
-    padding-bottom: 20px;
-
-  }
-
-  .hero-banner h1 {
-    color: #fd008a;
-    text-shadow: 2px 2px 2px #050318;
-  }
-
-  .hero-banner h6 {
-    color: #3ae4ee;
-    font-size: 40%;
-    font-weight: 800;
-    font-family: 'Press Start 2P', cursive;
-  }
 }
 
 
