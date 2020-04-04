@@ -48,6 +48,9 @@
 .profile-icon-container {
   width: 100%;
   grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-icon-container img {
@@ -57,7 +60,7 @@
 }
 
 .icon-section {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,4 +72,11 @@
 
 .ruby-or-logo {
   min-width: 140px;
+}
+
+.profile-portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

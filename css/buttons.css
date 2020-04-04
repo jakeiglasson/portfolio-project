@@ -1,12 +1,12 @@
-.portfolio-button {
+.profile-button {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin: 5px 0;
 }
 
-.portfolio-button a {
+.profile-button a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,18 +27,44 @@
   font-family: 'Press Start 2P', cursive;
 }
 
-.portfolio-button a:hover {
+.profile-button a:hover {
   border: 2px solid #3ae4ee;
   transition: ease-in 0.1s;
   color: #3ae4ee;
 }
 
-.portfolio-button2 a {
+.profile-button2 a {
   border: 2px solid #3ae4ee;
   color: #3ae4ee;
 }
 
-.portfolio-button2 a:hover {
+.profile-button2 a:hover {
   border: 2px solid #fd008a;
   color: #fd008a;
 }
+
+.nav-button {
+  /* margin-left: 0; */
+  max-width: 150px;
+  padding: 0px 20px;
+  margin-left: 10%;
+
+  border: 1px solid #3ae4ee;
+  border-bottom: 0px;
+  background-color: #0D0910;
+  border-radius: 10px 0px;
+
+  font-size: 200%;
+  color: #3ae4ee;
+  text-align: center;
+
+  
+}
+
+.nav-button:hover {
+  border-color: #fd008a;
+  color: #fd008a;
+  cursor: pointer;
+}
+
+.nav-button:
