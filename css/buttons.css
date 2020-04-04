@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .portfolio-button a {
@@ -28,6 +29,16 @@
 
 .portfolio-button a:hover {
   border: 2px solid #3ae4ee;
-  transition: ease-in 0.2s;
+  transition: ease-in 0.1s;
   color: #3ae4ee;
+}
+
+.portfolio-button2 a {
+  border: 2px solid #3ae4ee;
+  color: #3ae4ee;
+}
+
+.portfolio-button2 a:hover {
+  border: 2px solid #fd008a;
+  color: #fd008a;
 }
