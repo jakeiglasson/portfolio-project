@@ -63,13 +63,38 @@ body {
 /* Navigation Bar Section */
 
 .nav {
-  border-top: 1px solid #fd008a;
-  background-color: #0D0910;
-  width: 100%;
-  height: 70px;
+  /* border-top: 1px solid #fd008a; */
+  background-color: rgb(13, 9, 16);
+  border-radius: 10px;
+  /* width: 100%; */
+  /* height: 70px; */
   position: fixed;
-  bottom: 0;
+  bottom: 250px;
+  left: 20px;
 }
+
+.nav-container {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-menu-gif {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.nav-buttons {
+  position: absolute;
+  z-index: 10;
+}
+
+
 
 
 /* Hero Banner Section */
@@ -133,7 +158,7 @@ body {
 .footer-container {
   width: 100%;
   bottom: 70px;
-  margin-bottom: 80px;
+  margin-bottom: 400px;
 }
 
 
