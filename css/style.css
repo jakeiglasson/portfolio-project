@@ -120,6 +120,7 @@ body {
 
 /* MEDIA QUERYS */
 
+/* Tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .intro-container {
     font-size: 150%;
@@ -133,9 +134,22 @@ body {
     margin-bottom: 250px !important;
   }
 
-  
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .intro-container {
+    font-size: 150%;
+  }
+
+  .intro-container p{
+    margin: 0 10%;
+  }
+
+  .footer-container {
+    margin-bottom: 250px !important;
+  }
+}
 
 
 
