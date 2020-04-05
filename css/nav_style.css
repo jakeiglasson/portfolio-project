@@ -83,46 +83,72 @@ body {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .nav {
-    width: 100%;
-    background: none;
-    box-shadow: unset;
-  }
-
   .nav-menu-gif {
-    width: 25%;
-    grid-column: 1/3;
-    grid-row: 1/3;
-    justify-self: center;
-    align-items: flex-end;
-    padding: 10px 0;
-    min-height: 50px;
+    height: 50px;
+    max-height: 50px;
     min-width: 100%;
+
+    padding: 10px 0;
     margin: auto 0 0 0;
+
     background: url(../images/backgrounds/2retro-4237850.jpg);
     background-size: 100% 100%;
     box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
-    border-top: 2px solid #fd008a;
+
+    border-top: 2px solid #3ae4ee;
   }
 
   .nav-menu-gif img {
     margin: auto 0 auto 0;
-    transform: rotate(0);
     max-width: 100px;
   }
 
-  .nav-buttons {
-    grid-column: 1/3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 60px;
+  /* MOBILE NAVIGATION */
+  .nav-mobile {
+    display: unset !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
-  .nav-buttons .button a {
-    min-width: 130px;
-    /* max-width: 200px !important; */
-    font-size: 50%;
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  } 
+
+  .dropdown-content {
+    text-align: center;
+    display: none;
+    position: fixed;
+
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    min-width: 160px;
+
+    background: url(../images/backgrounds/2retro-4237850.jpg);
+    background-size: 100% 100%;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    
+    
+    padding: 12px 0px 60px 0px;
+    
+    z-index: 1;
   }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    font-size: unset;
+  }
+
+  .nav-buttons {
+    opacity: 100;
+    background: none;
+  }
+
 }

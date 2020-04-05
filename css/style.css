@@ -9,14 +9,14 @@
 
 * {
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
 a {
   text-decoration: none;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +49,10 @@ body {
 } */
 
   /* Settings for each section: header, content, footer etc #not nav */
+.nav-mobile {
+  display: none;
+}
+
 .section {
   height: 100%;
   width: 100%;
@@ -72,6 +76,18 @@ body {
 
 .text-white {
   color: white !important;
+}
+
+.font-ps2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-silt {
+  font-family: 'Shadows Into Light Two', cursive;
 }
 
 /* Hero Banner Section */
@@ -133,7 +149,6 @@ body {
   margin: 0 33%;
 }
 
-
 /* MEDIA QUERYS */
 
 /* Tablets (portrait and landscape) ----------- */
@@ -148,6 +163,10 @@ body {
 
   .footer-container {
     margin-bottom: 250px !important;
+  }
+
+  .text-container p {
+    margin: 0 10% !important;
   }
 
 }
@@ -174,6 +193,12 @@ body {
   .footer-container {
     margin-bottom: 100px !important;
   }
+
+  .text-container p {
+    margin: 0 10% !important;
+  }
+
+  
 }
 
 
