@@ -82,9 +82,34 @@
   cursor: pointer;
 }
 
+.linkedin-container {
+  border: none;
+}
+
+.linkedin-image img {
+  max-width: 100px;
+}
+
+.linkedin-container .profile-button-container .button a {
+    color: #fd008a;
+    border-color: #3ae4ee;
+}
+
+.linkedin-container .profile-button-container .button a:hover {
+    color: #3ae4ee;
+    border-color: #fd008a;
+    transition: ease-in 0.1s;
+}
+
 /* Tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .contact-container {
+    max-width: 720px;
+    margin: 40px auto;
+  }
+  .linkedin-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     max-width: 720px;
     margin: 40px auto;
   }
@@ -95,5 +120,9 @@
     .contact-container {
     max-width: 300px;
     margin: 40px auto;
+  }
+
+  .linkedin-container .profile-button-container .button a {
+    min-width: 300px;
   }
 }
