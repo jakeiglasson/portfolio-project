@@ -1,6 +1,11 @@
 
 .blog-page-container {
   width: 100%;
+  background: url(../images/textures/blue-lblue-cross-pattern-transparent-dark.png);
+}
+
+.blog-page-container .text-container {
+  background: none;
 }
 
 .blog-page-container .hero-banner-container, .blog-page-container .text-container {
@@ -18,7 +23,7 @@
 
   padding: 40px 0;
 
-  margin: 20px auto;
+  margin: 40px auto;
 
   max-width: 1000px;
   border: 2px solid #fd008a;

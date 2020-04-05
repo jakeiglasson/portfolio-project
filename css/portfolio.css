@@ -1,3 +1,11 @@
+.portfolio-page-container {
+  background: url(../images/textures/blue-lblue-cross-pattern-transparent-dark.png);
+}
+
+.portfolio-page-container .text-container {
+  background: none;
+}
+
 .portfolio-page-container .hero-banner-container{
   margin-bottom: 0 !important;
 }

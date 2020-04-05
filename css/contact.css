@@ -1,0 +1,99 @@
+.contact-page-container {
+  width: 100%;
+  background: url(../images/textures/blue-lblue-cross-pattern-transparent-dark.png);
+}
+
+.contact-page-container .text-container {
+  background: none;
+}
+
+.contact-page-container .hero-banner-container, .contact-page-container .text-container {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  border: 2px solid;
+  border-radius: 10px;
+
+  max-width: 800px;
+  /* min-width: 800px; */
+  /* min-height: 800px;
+  max-height: 800px; */
+
+  margin: 40px auto;
+
+}
+
+.email-form {
+  display: grid;
+  row-gap: 20px;
+  /* grid-template-columns: auto;
+  grid-template-rows: auto; */
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+.email-label, .email-form-message-input {
+  text-align: left;
+}
+
+.email-label {
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: auto;
+}
+
+.email-label-text {
+  max-width: 80px;
+  grid-column: 1/2;
+}
+
+.input-field {
+  max-width: 320px;
+  color: black;
+}
+
+.message-input-field {
+  width: 100%;
+  min-height: 160px;
+  color: black;
+}
+
+
+.email-form-submit {
+  max-width: 170px;
+  min-height: 40px;
+  text-align: center;
+
+  background-color: black;
+  color: #fd008a;
+  border: 2px solid #3ae4ee;
+  border-radius: 10px;
+
+  font-family: 'Press Start 2P', cursive;
+}
+
+.email-form-submit:hover {
+  border: 2px solid #fd008a;
+  transition: ease-in 0.1s;
+  color: #3ae4ee !important;
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .contact-container {
+    max-width: 720px;
+    margin: 40px auto;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .contact-container {
+    max-width: 300px;
+    margin: 40px auto;
+  }
+}
