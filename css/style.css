@@ -2,6 +2,7 @@
 @import url("./buttons.css");
 @import url("./nav_style.css");
 @import url("./footer.css");
+@import url("./portfolio.css");
 
 
 /* Defaults */
@@ -21,6 +22,9 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  color: #fd008a;
+  text-shadow: 2px 2px 2px #050318;
 }
 
 body {
@@ -60,6 +64,16 @@ body {
   text-align: justify;
 }
 
+.page-title {
+  display: inline-block;
+  border-bottom: 2px solid #3ae4ee;
+  font-size: 250%;
+}
+
+.text-white {
+  color: white !important;
+}
+
 /* Hero Banner Section */
 
 .hero-banner-container {
@@ -87,10 +101,10 @@ body {
 
 }
 
-.hero-banner h1 {
+/* .hero-banner h1 {
   color: #fd008a;
   text-shadow: 2px 2px 2px #050318;
-}
+} */
 
 .hero-banner h6 {
   color: #3ae4ee;
@@ -101,19 +115,21 @@ body {
 
 
 /* INTRODUCTION SECTION */
-.intro-container {
-  background: url(../images/textures/blue-lblue-cross-pattern.png);
+.text-container {
+  background: url(../images/textures/blue-lblue-cross-pattern-transparent-dark.png);
   /* background-size: cover; */
-  box-shadow:inset 0 0 0 2000px rgba(13, 9, 16, 0.9);
+  /* box-shadow:inset 0 0 0 2000px rgba(13, 9, 16, 0.9); */
   padding: 15px 0;
   font-size: 125%;
+  text-align: center;
+  padding: 40px 0;
 }
 
-.intro-container h1 {
+.text-container h1 {
   color: #fd008a;
 }
 
-.intro-container p{
+.text-container p{
   margin: 0 33%;
 }
 
