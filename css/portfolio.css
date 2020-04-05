@@ -129,4 +129,9 @@
     align-self: center;
   }
 
+  .p1 .portfolio-title {
+    justify-self: center;
+    align-self: center;
+  } 
+
 }

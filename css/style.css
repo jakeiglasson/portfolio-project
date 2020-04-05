@@ -3,6 +3,7 @@
 @import url("./nav_style.css");
 @import url("./footer.css");
 @import url("./portfolio.css");
+@import url("./blog.css");
 
 
 /* Defaults */
@@ -78,6 +79,14 @@ body {
   color: white !important;
 }
 
+.text-pink {
+  color: #fd008a !important;
+}
+
+.text-blue {
+  color: #3ae4ee !important;
+}
+
 .font-ps2 {
   font-family: 'Press Start 2P', cursive;
 }
@@ -88,6 +97,14 @@ body {
 
 .font-silt {
   font-family: 'Shadows Into Light Two', cursive;
+}
+
+.pink-border {
+  border-color: #fd008a;
+}
+
+.blue-border {
+  border-color:#3ae4ee;
 }
 
 /* Hero Banner Section */
