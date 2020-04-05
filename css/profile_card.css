@@ -107,12 +107,13 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .profile-card-container {
-    max-width: 768px;
+    max-width: 320px;
+    margin-top: 0 !important;
   }
 
   .profile-card {
     display: grid;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 0.7fr 0.7fr 0.7fr;
     grid-template-columns: 1fr;
   }
 
@@ -120,11 +121,43 @@
     grid-row: 1/2;
     margin-bottom: 50px;
     border: none;
-    max-width: 768px;
+    /* max-width: 320px; */
+  }
+
+  .profile-image-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-right: none;
+    margin-bottom: 0;
+  }
+
+  .profile-image-container img {
+    display: inline-block;
+    
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 10px;
+
+    border-radius: 50%;
+    /* border: 2px solid #fd008a; */
+
+    box-shadow: 3px 3px 3px #3ae4ee;
   }
 
   .profile-icon-container {
     grid-row: 2/3;
+    max-width: 320px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .icon-section {
+    flex-wrap: wrap;
   }
 
   .profile-button-container {
@@ -134,4 +167,10 @@
   .profile-button-container .button {
     margin: 30px 0;
   }
+
+  .profile-button-container .button a{
+    min-width: 200px;
+    font-size: 100% !important;
+  }
+
 }
