@@ -2,7 +2,7 @@ integrity=“sha512-
 integrity=“md5-
 
 blog:
-integrity=“sha512-1ad546b15cce413112f5b5f144add969044c371af30bebc0112bcf562a8674d376ef80f5d0bb5080691d9a961ed43765dc4327c6859039e8a54b2d7b3649ddac"
+integrity=“sha512-GtVGsVzOQTES9bXxRK3ZaQRMNxrzC+vAESvPViqGdNN274D10LtQgGkdmpYe1Ddl3EMnxoWQOeilSy17NkndrA=="
 integrity=“md5-7c66bcd077db684da17d961bba4c3e2d"
 
 buttons:
@@ -32,4 +32,10 @@ integrity=“md5-a45fc6b06954feeb1e7bd0d9f4043416"
 style
 integrity=“sha512-c0cb7169defd23647a0f0f6f220ca750ab4c0310f80c6240c149ff6e1fc99a13933b8cc506905049334f6d21a49b395396ea738ed7bdc1d1d02bd12252bee45f"
 integrity=“md5-43db0c2ed9ea7cc4e36849e0fefdcd81"
+
+
+cat style.css | openssl dgst -sha512 -binary | openssl base64 -A
+cat style.css | openssl dgst -sha384 -binary | openssl base64 -A
+cat style.css | openssl dgst -sha256 -binary | openssl base64 -A
+
 

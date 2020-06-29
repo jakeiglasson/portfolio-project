@@ -7,7 +7,8 @@
   background: none;
 }
 
-.contact-page-container .hero-banner-container, .contact-page-container .text-container {
+.contact-page-container .hero-banner-container,
+.contact-page-container .text-container {
   margin: 0;
   padding: 0;
 }
@@ -22,7 +23,6 @@
   max-height: 800px; */
 
   margin: 40px auto;
-
 }
 
 .email-form {
@@ -34,7 +34,8 @@
   margin: 40px auto;
 }
 
-.email-label, .email-form-message-input {
+.email-label,
+.email-form-message-input {
   text-align: left;
 }
 
@@ -60,18 +61,18 @@
   color: black;
 }
 
-
 .email-form-submit {
   max-width: 170px;
   min-height: 40px;
   text-align: center;
+  align-items: center;
 
   background-color: black;
   color: #fd008a;
   border: 2px solid #3ae4ee;
   border-radius: 10px;
 
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 .email-form-submit:hover {
@@ -91,18 +92,18 @@
 }
 
 .linkedin-container .profile-button-container .button a {
-    color: #fd008a;
-    border-color: #3ae4ee;
+  color: #fd008a;
+  border-color: #3ae4ee;
 }
 
 .linkedin-container .profile-button-container .button a:hover {
-    color: #3ae4ee;
-    border-color: #fd008a;
-    transition: ease-in 0.1s;
+  color: #3ae4ee;
+  border-color: #fd008a;
+  transition: ease-in 0.1s;
 }
 
 /* Tablets (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .contact-container {
     max-width: 720px;
     margin: 40px auto;
@@ -116,8 +117,8 @@
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .contact-container {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .contact-container {
     max-width: 300px;
     margin: 40px auto;
   }
