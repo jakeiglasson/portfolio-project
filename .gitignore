@@ -4,3 +4,5 @@
 *.gif
 *.pdf
 ignore
+images
+resume-*
