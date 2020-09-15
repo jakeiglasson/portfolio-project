@@ -14,7 +14,7 @@ body {
 
   background: url(../images/backgrounds/2retro-4237850.jpg);
   background-size: 100% 100%;
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 }
 
 .nav-buttons {
@@ -25,7 +25,7 @@ body {
   /* background: url(../images/backgrounds/2synthwave-3941721.jpg); */
   background: url(../images/backgrounds/2retro-4237850.jpg);
   background-size: 100% 100%;
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 
   z-index: 2;
 }
@@ -54,15 +54,15 @@ body {
 }
 
 .nav-buttons .button a {
-  min-width: 300px
+  min-width: 300px;
 }
 
 /* Tablets (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .nav {
     display: none;
   }
-  
+
   .nav-menu-gif {
     /* height: 50px; */
     /* max-height: 50px; */
@@ -73,7 +73,7 @@ body {
 
     background: url(../images/backgrounds/2retro-4237850.jpg);
     background-size: 100% 100%;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 
     border-top: 2px solid #3ae4ee;
   }
@@ -97,7 +97,7 @@ body {
     display: inline-block;
     text-align: center;
     width: 100%;
-  } 
+  }
 
   .dropdown-content {
     text-align: center;
@@ -111,11 +111,10 @@ body {
 
     background: url(../images/backgrounds/2retro-4237850.jpg);
     background-size: 100% 100%;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
-    
-    
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+
     padding: 12px 0px 120px 0px;
-    
+
     z-index: 1;
   }
 
@@ -139,7 +138,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .nav-menu-gif {
     height: 50px;
     max-height: 50px;
@@ -150,7 +149,7 @@ body {
 
     background: url(../images/backgrounds/2retro-4237850.jpg);
     background-size: 100% 100%;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 
     border-top: 2px solid #3ae4ee;
   }
@@ -173,7 +172,7 @@ body {
     display: inline-block;
     text-align: center;
     width: 100%;
-  } 
+  }
 
   .dropdown-content {
     text-align: center;
@@ -187,11 +186,10 @@ body {
 
     background: url(../images/backgrounds/2retro-4237850.jpg);
     background-size: 100% 100%;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
-    
-    
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+
     padding: 12px 0px 60px 0px;
-    
+
     z-index: 1;
   }
 
@@ -207,5 +205,4 @@ body {
     opacity: 100;
     background: none;
   }
-
 }
