@@ -2,7 +2,6 @@
 *.jpeg
 *.png
 *.gif
-*.pdf
 ignore
 images
 resume-*
