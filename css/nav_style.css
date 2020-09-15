@@ -34,6 +34,11 @@ body {
   opacity: 100;
 }
 
+.nav-buttons .button {
+  height: unset;
+  display: unset;
+}
+
 /* .nav-buttons .button {
   margin: 0;
 } */
