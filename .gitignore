@@ -3,5 +3,4 @@
 *.png
 *.gif
 *.pdf
-./resume-*
-./images-bak
+ignore
