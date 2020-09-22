@@ -18,10 +18,11 @@ html {
 }
 
 body {
-  background-color: rgb(13, 9, 16);
-  width: 21cm;
-  height: 29.7cm;
+  background-color: #f8f8ff;
+  width: 873px;
+  /* height: 29.7cm; */
   margin: auto;
+  padding: 0;
 }
 
 .resume-container {
@@ -47,7 +48,6 @@ a {
 }
 
 html,
-body,
 blockquote,
 code,
 h1,
