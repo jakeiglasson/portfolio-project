@@ -8,8 +8,15 @@
   color: #373737;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   background-color: #f8f8ff;
+  width: 873px;
+  margin: auto;
+  padding: 0;
 }
 
 .resume-container {
@@ -35,7 +42,6 @@ a {
 }
 
 html,
-body,
 blockquote,
 code,
 h1,

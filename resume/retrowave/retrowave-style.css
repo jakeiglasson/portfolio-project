@@ -13,8 +13,14 @@
   color: #ffffff;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   background-color: rgb(13, 9, 16);
+  width: 873px;
+  margin: auto;
 }
 
 .resume-container {
