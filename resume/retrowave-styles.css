@@ -1,3 +1,8 @@
+/* "Press Start 2P", cursive */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* "Shadows Into Light", cursive */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+/* "Raleway", sans-serif */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
@@ -5,7 +10,7 @@
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  color: #373737;
+  color: #ffffff;
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 }
 
 .resume-container {
-  background-color: #f8f8ff;
+  background-color: rgb(13, 9, 16);
 
   display: grid;
   grid-template-columns: 0.6fr 1.4fr;
@@ -57,7 +62,7 @@ pre {
   margin-bottom: 20px;
 
   font-size: 150%;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 .subsequent-page {
@@ -116,13 +121,18 @@ i {
 .hero-text-main {
   align-self: end;
 
-  font-size: 350%;
+  font-size: 500%;
   font-weight: 700;
   letter-spacing: 0.2rem;
+
+  font-family: "Shadows Into Light", cursive;
+  color: #fd008a;
 }
 
 .hero-text-sub {
-  font-size: 150%;
+  font-size: 250%;
+  font-family: "Shadows Into Light", cursive;
+  color: #3ae4ee;
 }
 
 /* ---------- Left Side ---------- */
@@ -323,7 +333,7 @@ i {
 }
 
 .experience-text-entry:nth-child(-n + 2) {
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted white;
   padding-bottom: 10px;
 }
 
